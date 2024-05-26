@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/myenergypal/schema#",
+    "description": "Schema for validating a Plan instance.",
+    "id": "https://www.mizuho-emea.com/myenergypalschema.json",
+    "properties": {
+        "plan_name": {
+            "description": "Unique Plan Name",
+            "id": "/properties/plan_name",
+            "title": "Plan Name",
+            "type": "string"
+        },
+        "prices": {
+            "additionalItems": false,
+            "id": "/properties/prices",
+            "items": {
+                "id": "/properties/prices/items",
+                "properties": {
+                    "rate": {
+                        "description": "Rate expressed in pence; exclusive of VAT",
+                        "id": "/properties/prices/items/properties/rate",
+                        "title": "Rate",
+                        "type": "number"
+                    },
+                    "threshold": {
+                        "description": "Energy to be consumed at this rate annually",
+                        "id": "/properties/prices/items/properties/threshold",
+                        "title": "Threshold",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "standing_charge": {
+            "description": "Daily charge expressed in pence; exclusive of VAT",
+            "id": "/properties/standing_charge",
+            "title": "Standing Charge",
+            "type": "integer"
+        },
+        "supplier_name": {
+            "description": "Supplier Name",
+            "id": "/properties/supplier_name",
+            "title": "Supplier Name",
+            "type": "string"
+        }
+    },
+    "title": "Root JSON Schema.",
+    "type": "array"
+}

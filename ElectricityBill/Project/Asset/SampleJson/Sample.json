@@ -1,0 +1,58 @@
+[
+  {
+    "supplier_name": "Maharashtra State Electricity Distribution Co. Ltd",
+    "plan_name": "Basic Plan",
+    "prices": [
+      {
+        "rate": 15,
+        "threshold": 100
+      },
+      {
+        "rate": 12.5,
+        "threshold": 150
+      },
+      {
+        "rate": 10
+      }
+    ],
+    "standing_charge": 5
+  },
+
+  {
+    "supplier_name": "Cheenai State Electricity Distribution Co. Ltd",
+    "plan_name": "Plan 2",
+    "prices": [
+      {
+        "rate": 20,
+        "threshold": 200
+      },
+      {
+        "rate": 10.5,
+        "threshold": 300
+      },
+      {
+        "rate": 12
+      }
+    ],
+    "standing_charge": 5
+  },
+
+  {
+    "supplier_name": "Mumbai Electricity Distribution Co. Ltd",
+    "plan_name": "Plan generic",
+    "prices": [
+      {
+        "rate": 30,
+        "threshold": 300
+      },
+      {
+        "rate": 22.5,
+        "threshold": 900
+      },
+      {
+        "rate": 15
+      }
+    ],
+    "standing_charge": 5
+  }
+]

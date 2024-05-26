@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ElectricityBill/.vs/ElectricityBill
+/ElectricityBill/Test/bin/Debug/net6.0
+/ElectricityBill/Test/obj

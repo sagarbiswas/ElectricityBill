@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyAnnualCostCalculation", "EnergyAnnualCostCalculation.csproj", "{EEC02262-78D8-4B3D-AEEB-93ED32A1055D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEnergyConsumption", "..\TestEnergyConsumption\TestEnergyConsumption.csproj", "{7217929B-BB82-48FA-BB7D-B99857B5C4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC02262-78D8-4B3D-AEEB-93ED32A1055D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC02262-78D8-4B3D-AEEB-93ED32A1055D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC02262-78D8-4B3D-AEEB-93ED32A1055D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC02262-78D8-4B3D-AEEB-93ED32A1055D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7217929B-BB82-48FA-BB7D-B99857B5C4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7217929B-BB82-48FA-BB7D-B99857B5C4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7217929B-BB82-48FA-BB7D-B99857B5C4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7217929B-BB82-48FA-BB7D-B99857B5C4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68750999-3010-4501-B314-4E0D995C6551}
+	EndGlobalSection
+EndGlobal

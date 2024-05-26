@@ -1,0 +1,17 @@
+  {
+    "supplier_name": "Test Supplier",
+    "supplier_name": "Maharashtra State Electricity Distribution Co. Ltd",
+    "prices": [
+      {
+        "rate": 15,
+        "threshold": 100
+      },
+      {
+        "rate": 12.5,
+        "threshold": 150
+      },
+      {
+        "rate": 10
+      }
+    ]
+  }
