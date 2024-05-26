@@ -7,6 +7,7 @@ using EnergyAnnualCostCalculation.Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,6 +47,7 @@ namespace EnergyAnnualCostCalculation
                 }
 
                 // Get Total bill
+                ReenterEnergyConsumption:
                 Console.Write(Constants.AnnualConsumptionMsg);
                 int totalConsumption = Convert.ToInt32((Console.ReadLine() ?? "annual_unit ").ToUpper().Replace("annual_unit ", string.Empty).Trim()); // if your enter annual_unit keyword then it will ignore.
 
@@ -74,11 +76,17 @@ namespace EnergyAnnualCostCalculation
 
                 // Exit the flow or continue with other consumer
                 Console.Write(Constants.ExitMsg);
-                if ((Console.ReadLine() ?? string.Empty).ToUpper().Contains("EXIT"))
-                    return;
+                string userInput = (Console.ReadLine() ?? string.Empty).ToUpper();
 
-                Console.WriteLine();
-                goto StartPoint;
+                switch (userInput)
+                {
+                    case "I":
+                        goto StartPoint;
+                    case "R":
+                        goto ReenterEnergyConsumption;
+                    default:
+                        return;
+                }
             }
             catch (Exception)
             {
