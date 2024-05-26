@@ -1,4 +1,4 @@
-﻿namespace EnergyAnnualCostCalculation.Model
+﻿namespace EnergyAnnualCostCalculation.Model.JsonValidationModel
 {
     public class ValidateRequest
     {

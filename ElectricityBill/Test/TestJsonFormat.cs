@@ -1,5 +1,5 @@
 using EnergyAnnualCostCalculation.Common;
-using EnergyAnnualCostCalculation.Model;
+using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 using EnergyAnnualCostCalculation.Validation;
 
 namespace TestEnergyConsumption

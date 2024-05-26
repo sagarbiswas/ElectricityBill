@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-namespace EnergyAnnualCostCalculation.Model
+namespace EnergyAnnualCostCalculation.Model.JsonInputModel
 {
     public partial class EnergyConsumptionCalculator
     {

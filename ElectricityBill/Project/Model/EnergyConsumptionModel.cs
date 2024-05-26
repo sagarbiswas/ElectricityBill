@@ -1,4 +1,6 @@
-﻿namespace EnergyAnnualCostCalculation.Model
+﻿using EnergyAnnualCostCalculation.Model.JsonInputModel;
+
+namespace EnergyAnnualCostCalculation.Model
 {
     public class EnergyConsumptionModel
     {

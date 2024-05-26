@@ -1,4 +1,4 @@
-﻿using EnergyAnnualCostCalculation.Model;
+﻿using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
 

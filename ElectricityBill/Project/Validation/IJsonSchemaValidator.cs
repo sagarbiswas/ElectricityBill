@@ -1,4 +1,4 @@
-﻿using EnergyAnnualCostCalculation.Model;
+﻿using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 
 namespace EnergyAnnualCostCalculation.Validation
 {

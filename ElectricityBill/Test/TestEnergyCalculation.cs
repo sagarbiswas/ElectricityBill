@@ -1,6 +1,7 @@
 ﻿using EnergyAnnualCostCalculation;
 using EnergyAnnualCostCalculation.BusinessLayer;
 using EnergyAnnualCostCalculation.Model;
+using EnergyAnnualCostCalculation.Model.JsonInputModel;
 using EnergyAnnualCostCalculation.Validation;
 using Microsoft.Extensions.Logging;
 using Moq;

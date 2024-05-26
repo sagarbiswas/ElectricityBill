@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Schema;
 
-namespace EnergyAnnualCostCalculation.Model
+namespace EnergyAnnualCostCalculation.Model.JsonValidationModel
 {
     public class ValidateResponse
     {

@@ -1,5 +1,7 @@
 ﻿using EnergyAnnualCostCalculation.Common;
 using EnergyAnnualCostCalculation.Model;
+using EnergyAnnualCostCalculation.Model.JsonInputModel;
+using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 using EnergyAnnualCostCalculation.Validation;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;

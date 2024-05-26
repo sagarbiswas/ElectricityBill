@@ -1,6 +1,8 @@
 ﻿using EnergyAnnualCostCalculation.BusinessLayer;
 using EnergyAnnualCostCalculation.Common;
 using EnergyAnnualCostCalculation.Model;
+using EnergyAnnualCostCalculation.Model.JsonInputModel;
+using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 using EnergyAnnualCostCalculation.Validation;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace EnergyAnnualCostCalculation
 {
-   
+
     public class Application
     {
         private readonly IEnergyConsumptionHandler _iEnergyConsumptionHandler;

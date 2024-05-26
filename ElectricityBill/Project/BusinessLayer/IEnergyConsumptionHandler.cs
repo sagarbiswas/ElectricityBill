@@ -1,4 +1,6 @@
 ﻿using EnergyAnnualCostCalculation.Model;
+using EnergyAnnualCostCalculation.Model.JsonInputModel;
+using EnergyAnnualCostCalculation.Model.JsonValidationModel;
 
 namespace EnergyAnnualCostCalculation.BusinessLayer
 {
