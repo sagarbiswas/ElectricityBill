@@ -3,13 +3,6 @@ using EnergyAnnualCostCalculation.Common;
 using EnergyAnnualCostCalculation.Model;
 using EnergyAnnualCostCalculation.Model.JsonInputModel;
 using EnergyAnnualCostCalculation.Model.JsonValidationModel;
-using EnergyAnnualCostCalculation.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EnergyAnnualCostCalculation
 {
